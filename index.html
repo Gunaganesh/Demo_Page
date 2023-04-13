@@ -37,7 +37,14 @@ Login form:
 
 <input type="button" value="Login" onclick="openWin()" /> 
 </form> 
-
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event' : 'pageview',
+  'loginStatus' : 'logged in',
+  'pageType' : 'product details page'
+});
+</script>        
       <body>
   
 <iframe height="200" width="200"  
