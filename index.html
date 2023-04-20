@@ -20,7 +20,15 @@ Login form
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFW2XCZ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-Login form:  
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event' : 'pageview',
+  'loginStatus' : 'logged in',
+ });
+      
+      
+      Login form:  
 <form>  
 <label>User Id: </label> <br>  
 <input type="text"> <br> <br>  
